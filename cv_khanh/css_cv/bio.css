@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+/*information*/
+h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+#information{
+    flex : 1;
+    background-color: greenyellow;
+}
+#information h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+#information img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+#information .address,.phone,.email,.language {
+    margin : 10px;
+}
+#information .sub-inform p {
+    font-weight: bolder;
+}
+#information .sub-inform {
+    font-size: 28px;
+}
+/*about*/
+
+#about{
+    flex : 3;
+    margin : 90px 15px;
+}
+
+.summary,.skill,.experience,.education,.certifications {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.summary p{
+    padding: 5px;
+}
+
+
+.skill .ul-set {
+    display: flex;
+    
+}
+
+.skill .ul-set ul {
+    margin: 5px 20px;
+}
+.experience ul{
+    margin: 5px 15px;
+    list-style: none;
+}
+
+.education table{
+    margin: 5px 20px;
+}
+
+.certifications{
+
+}
